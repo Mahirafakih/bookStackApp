@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Study Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 2,
+    "name": "Recipe Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 3,
+    "name": "Tech Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 4,
+    "name": "Story Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 5,
+    "name": "Recipe Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Recipe",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 6,
+    "name": "Science Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Science",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 10,
+    "name": "Comic Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Comedy",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 8,
+    "name": "Novel Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Stories",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 9,
+    "name": "Colour Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  },
+  {
+    "id": 7,
+    "name": "Jungle Book",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "category": "Free",
+    "price": "$99",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724861566~exp=1724865166~hmac=719d67895d36868824bf6724f2ad52e1fc0cb5451d98b7dddca30b746d504c5b&w=1060"
+  }
+]
