@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
+import { useAuth } from "../context/AuthProvider.jsx";
+import Logout from "./Logout.jsx";
 
 function Navbar() {
+  const [authUser, setAuthUser] = useAuth();
+
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
@@ -42,7 +46,7 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a href="/contact">Contact us</a>
+        <a href="/email">Contact us</a>
       </li>
       <li>
         <a>About</a>
@@ -78,12 +82,14 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className=" dark:text-black menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               {navbar}
             </ul>
           </div>
-          <a className="text-2xl font-black cursor-pointer ">bookStack</a>
+          <a className="text-2xl font-black cursor-pointer ">
+            book<span className="text-pink-600">Stack</span>
+          </a>
         </div>
 
         <div className="navbar-end space-x-3">
@@ -96,7 +102,7 @@ function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
                   fill="currentColor"
-                  className="h-4 w-4 opacity-70"
+                  className="h-4 w-4 opacity-70 dark:text-black"
                 >
                   <path
                     fillRule="evenodd"
@@ -137,15 +143,21 @@ function Navbar() {
             </label>
           </div>
 
-          <div className="">
-            <a
-              className="bg-black text-white md:px-4 p-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer dark:bg-slate-200 dark:text-black"
-              onClick={() => document.getElementById("my_modal_3").showModal()}
-            >
-              Login
-            </a>
-            <Login />
-          </div>
+          {authUser ? (
+            <Logout />
+          ) : (
+            <div className="">
+              <a
+                className="bg-black text-white md:px-4 p-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer dark:bg-slate-200 dark:text-black"
+                onClick={() =>
+                  document.getElementById("my_modal_3").showModal()
+                }
+              >
+                Login
+              </a>
+              <Login />
+            </div>
+          )}
         </div>
       </div>
     </div>
